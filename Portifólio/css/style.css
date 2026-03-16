@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #0b0f14;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+
+nav {
+    padding: 30px 60px;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9ca3af;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+/* HERO */
+
+.hero {
+    max-width: 850px;
+    margin: 150px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero img {
+    width: 170px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #9ca3af;
+    margin-bottom: 35px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 12px 26px;
+    border-radius: 8px;
+    border: 2px solid #3b82f6;
+    color: #3b82f6;
+}
+
+/* SECTIONS */
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px 20px;
+}
+
+section h2 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+/* SOBRE */
+
+#sobre p {
+    font-size: 18px;
+    color: #9ca3af;
+    max-width: 700px;
+}
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.skills li {
+    background: #1f2937;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+/* PROJETOS */
+
+.projetos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.projeto {
+    background: #111827;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.projeto p {
+    color: #9ca3af;
+    margin-bottom: 15px;
+}
+
+.projeto a {
+    text-decoration: none;
+    color: #3b82f6;
+}
+
+/* CONTATO */
+
+#contato p {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 50px;
+    margin-top: 60px;
+    color: #9ca3af;
+    font-size: 14px;
+}
