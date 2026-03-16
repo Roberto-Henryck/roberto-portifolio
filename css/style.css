@@ -155,3 +155,49 @@ footer {
     color: #9ca3af;
     font-size: 14px;
 }
+
+@media (max-width: 600px) {
+
+    nav {
+        padding: 20px;
+    }
+
+    .hero {
+        margin: 70px auto;
+    }
+
+    .hero img {
+        width: 130px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 70px 20px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links a {
+        width: 200px;
+        text-align: center;
+    }
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+    }
+
+}
